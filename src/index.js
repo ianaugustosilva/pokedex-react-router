@@ -1,14 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
+import App from "./App.jsx";
+import Bulbassaur from "./routes/Bulbasssaur/Bulbassaur.jsx";
+
+import Pikachu from "./routes/Pikachu/Pikachu.jsx";
+import Totodile from "./routes/Totodile/Totodile.jsx";
+
 // 1 - configurando o router
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import App from "./App.jsx";
-import ErrorPage from "./routes/ErrorPage.jsx";
-
-import Bulbassaur from "./routes/Bulbassaur.jsx";
-import Pikachu from "./routes/Pikachu.jsx";
-import Totodile from "./routes/Totodile.jsx";
+import ErrorPage from "./components/ErrorPage/ErrorPage.jsx";
 
 // 1.1 - aqui estou setando as rotas, para configurar, precisa ter páginas
 

@@ -1,10 +1,10 @@
 // 2 reaproveitamento de estrutura
 import { Outlet } from "react-router-dom";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar/Navbar.jsx";
 
 function App() {
   return (
-    <div className="App">
+    <div className="container">
       <Navbar />
       <h1>Pokedex Router Dom</h1>
       <Outlet />
