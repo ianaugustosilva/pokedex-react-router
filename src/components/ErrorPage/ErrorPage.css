@@ -14,3 +14,15 @@
   max-width: 100%;
   max-height: 400px;
 }
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3a4554;
+  color: white;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}

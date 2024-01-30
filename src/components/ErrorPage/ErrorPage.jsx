@@ -10,6 +10,10 @@ const ErrorPage = () => {
         alt="errorpage"
         className="image"
       />
+
+      <a href="./" class="button">
+        Voltar para a página inicial
+      </a>
     </div>
   );
 };
