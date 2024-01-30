@@ -1,0 +1,11 @@
+/* Bulbassaur.css */
+
+.container {
+  text-align: center;
+}
+
+.image {
+  max-width: 100%;
+  max-height: 400px;
+  margin-top: 20px;
+}
