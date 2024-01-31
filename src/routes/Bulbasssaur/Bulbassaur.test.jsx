@@ -1,14 +1,17 @@
+import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
-import React from "react";
 import Bulbassaur from "./Bulbassaur";
 
 describe("Bulbassaur Component", () => {
   it("should render Bulbassaur component", () => {
-    // verifica se a imagem está presente
     render(<Bulbassaur />);
-    screen.getAllByAltText("bulbassaur");
 
-    // verifica se tem o texto 'Bulbassaur' está presente
-    screen.getByText("Bulbassaur");
+    // verifica se a imagem está presente
+    const image = screen.getByRole("img", { name: /bulbassaur/i });
+    expect(image).toBeInTheDocument();
+
+    // verifica se o texto está presente
+    const text = screen.getByText(/bulbassaur/i);
+    expect(text).toBeInTheDocument();
   });
 });

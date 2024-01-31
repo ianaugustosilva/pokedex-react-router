@@ -11,7 +11,7 @@ const ErrorPage = () => {
         className="image"
       />
 
-      <a href="./" class="button">
+      <a href="./" className="button">
         Voltar para a página inicial
       </a>
     </div>
