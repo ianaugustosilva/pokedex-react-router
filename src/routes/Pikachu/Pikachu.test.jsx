@@ -3,7 +3,7 @@ import { render, screen } from "@testing-library/react";
 import Pikachu from "./Pikachu";
 
 describe("Pikachu", () => {
-  it("should render navbar, Pikachu image and text", () => {
+  it("should render Pikachu image and text", () => {
     render(<Pikachu />);
 
     const image = screen.getByRole("img", { name: /pikachu/i });
